@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>🎂 HAPPY BIRTHDAY KASRA 🥳🤩</title>
+    </head>
+    <body>
+        <div id="level-up-overlay"></div>
+
+        <div class="bg"></div>
+
+        <div class="audio">
+            <audio
+                autoplay
+                id="audio-file"
+                src="https://dl2.iran-music.net/dl-New/mp3/97/03/andy-tavalodet-mobarak.mp3"></audio>
+        </div>
+        <script>
+            const audioFile = document.getElementById('audio-file')
+
+            document.addEventListener('click', function () {
+                audioFile.play()
+            })
+        </script>
+        <div class="pyro">
+            <div class="before"></div>
+            <div class="after"></div>
+            <div class="birthdayCard">
+                <div class="cardFront" id="play-button">
+                    <div class="picpic">click me</div>
+                    <div class="pic">
+                        <img src="" alt="" />
+                    </div>
+                </div>
+                <div class="cardInside">
+                    <div class="wishes">
+                        <p>My dear <b>Kasra</b>,</p>
+                        <p class="Kasra">
+                            Happy birthday, Kasra! May your adventures in
+                            Azeroth be filled with epic loot, thrilling battles,
+                            and unforgettable memories. May your enemies tremble
+                            at the sound of your name, and may your allies
+                            always stand by your side. May your journey be long
+                            and prosperous, and may the light of Elune guide
+                            your path. From one adventurer to another, I wish
+                            you a truly legendary birthday celebration. For the
+                            Horde! (Or Alliance, if that's your thing.)
+                        </p>
+                        <p class="name">Best wishes, <b>Mr. Peter</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
